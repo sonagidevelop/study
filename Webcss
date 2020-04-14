@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Indie Flower', cursive;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	border : 1px solid gray;
+	flex-basis: 100%;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	border : 1px solid gray;
+	
+}
+
+.content nav , aside {
+	flex-grow: 1;
+	border : 1px solid gray;
+	flex-basis: 15%;
+}
+
+.content main {
+	flex-grow: 4;
+	border : 1px solid gray;
+	background-color:LightskyBlue  ;
+	flex-basis: 70%;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	
+}
+
+footer {
+	height: 100px;
+	border: 1px solid gray;
+	background-color: gray;
+	text-align: center;
+}
+
+footer img {
+	height: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+} 
+
+footer ul{
+	list-style-type: none;
+	border: 1px solid black;
+	text-align: center;
+}
+
+footer ul li{
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.content nav{
+	padding-left:0px;
+	background-color: LightBlue;
+}
+
+.content nav ul {
+	list-style-type: none;
+	border: 1px solid black;
+	padding-left: 0;
+}
+
+.content main main_Date p{
+	border: 1px solid black;
+	text-align: right;
+}
+
+.profile {
+	height: 120px;
+	border: 1px solid black;
+}
